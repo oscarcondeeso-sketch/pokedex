@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pokedex</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Pokedex</h1>
+      <form id="search-form">
+        <input type="text" id="search-input" placeholder="Nombre o ID" />
+        <button type="submit">Buscar</button>
+      </form>
+    </header>
+
+    <main class="main">
+      <section class="pokemon-view">
+        <img id="pokemon-image" src="" alt="" />
+        <h2 id="pokemon-name"></h2>
+        <p id="pokemon-id"></p>
+        <div id="pokemon-types"></div>
+
+        <div class="info">
+          <p>Altura: <span id="pokemon-height"></span></p>
+          <p>Peso: <span id="pokemon-weight"></span></p>
+          <p>Habilidades: <span id="pokemon-abilities"></span></p>
+        </div>
+
+        <ul id="pokemon-stats"></ul>
+      </section>
+
+      <aside class="list">
+        <ul id="pokemon-list"></ul>
+        <div class="pagination">
+          <button id="prev-page">Anterior</button>
+          <button id="next-page">Siguiente</button>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <p>Datos obtenidos de PokéAPI</p>
+    </footer>
+  </body>
+</html>
