@@ -1,0 +1,12 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 2rem;
+}
+header h1 {
+  color: #5e2a8c;
+}
+main {
+  padding: 1rem;
+  background: #efeaf7;
+  border-radius: 0.5rem;
+}
